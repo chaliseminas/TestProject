@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:padding="@dimen/p16">
+
+    <TextView
+        android:id="@+id/tvDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:textColor="@color/brandColor"
+        android:layout_gravity="end"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m16"
+        android:text="@string/enter_phone_number"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/etCountryCode"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="3"
+            android:background="@drawable/country_edittext"
+            app:ccpDialog_showPhoneCode="false"
+            app:ccp_defaultNameCode="np"
+            app:ccp_showArrow="false"
+            app:ccp_showNameCode="false"
+            app:ccp_showPhoneCode="false"
+            android:gravity="start"
+            app:ccpDialog_background="@color/backgroundColor"
+            app:ccpDialog_textColor="@color/white"
+            android:layout_gravity="start"
+            app:ccp_useFlagEmoji="true" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:hint="98xxxxxxxx"
+            android:textColorHint="@color/hintColor"
+            android:background="@drawable/phone_edittext" />
+
+    </LinearLayout>
+
+</LinearLayout>

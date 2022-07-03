@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "957429771298",
+    "project_id": "pick-me-b6ac9",
+    "storage_bucket": "pick-me-b6ac9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957429771298:android:5070f3896ebd88f1f46e7b",
+        "android_client_info": {
+          "package_name": "com.chaliseminas.pickme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957429771298-litl5ocddfqplesqgovdtu6gm0hb8uob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chaliseminas.pickme",
+            "certificate_hash": "9301685960966429faba7e5cdcaf24e3c3e5de11"
+          }
+        },
+        {
+          "client_id": "957429771298-5kq3f6hb83i1l411eq58lg54toofaf37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACkiwbrUltSotIwxtqDIA1dNyR-XaC7IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957429771298-5kq3f6hb83i1l411eq58lg54toofaf37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

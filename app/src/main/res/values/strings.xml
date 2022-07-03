@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pick Me</string>
+    <string name="done">Done</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_otp_code">Enter OTP Code</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

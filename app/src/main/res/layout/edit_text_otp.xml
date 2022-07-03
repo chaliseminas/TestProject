@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <EditText
+        android:id="@+id/etOtp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:shadowColor="@color/buttonColor"
+        android:layout_marginEnd="10dp"
+        android:nextFocusLeft="@+id/etOtp1"
+        android:nextFocusRight="@+id/etOtp1" />
+
+    <EditText
+        android:id="@+id/etOtp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:nextFocusLeft="@+id/etOtp1"
+        android:nextFocusRight="@+id/etOtp3" />
+
+    <EditText
+        android:id="@+id/etOtp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:nextFocusLeft="@+id/etOtp1"
+        android:nextFocusRight="@+id/etOtp4" />
+
+    <EditText
+        android:id="@+id/etOtp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:nextFocusLeft="@+id/etOtp3"
+        android:nextFocusRight="@+id/etOtp4" />
+
+    <EditText
+        android:id="@+id/etOtp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:nextFocusLeft="@+id/etOtp3"
+        android:nextFocusRight="@+id/etOtp4" />
+
+    <EditText
+        android:id="@+id/etOtp6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:nextFocusLeft="@+id/etOtp3"
+        android:nextFocusRight="@+id/etOtp4" />
+
+</LinearLayout>
